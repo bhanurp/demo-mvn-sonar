@@ -1,0 +1,6 @@
+projectKey=mvn-sonar
+serverUrl=http://localhost:9999
+serverVersion=25.4.0.105899
+dashboardUrl=http://localhost:9999/dashboard?id=mvn-sonar
+ceTaskId=0d781dc7-fc0e-4677-a79c-3df006cf9749
+ceTaskUrl=http://localhost:9999/api/ce/task?id=0d781dc7-fc0e-4677-a79c-3df006cf9749
