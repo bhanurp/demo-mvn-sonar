@@ -10,8 +10,8 @@
     "name" : "/",
     "version" : "3.9.9"
   },
-  "started" : "2025-04-15T18:49:45.173+0530",
-  "durationMillis" : 3391,
+  "started" : "2025-04-16T07:23:14.463+0530",
+  "durationMillis" : 3753,
   "vcs" : [ ],
   "modules" : [ {
     "properties" : {
@@ -20,22 +20,22 @@
       "project.build.sourceEncoding" : "UTF-8"
     },
     "type" : "maven",
-    "id" : "com.example:demo-sonar:1.0-SNAPSHOT",
+    "id" : "com.example:demo-sonar:1.0",
     "repository" : "dev-maven-local",
     "artifacts" : [ {
       "type" : "jar",
-      "sha1" : "e44918938f65d0032981db58fc61fc9f105c5569",
-      "sha256" : "3d3d6cb13106fd115c2641739044ff749f800c2fe0601e3e754e14eb8aa96634",
-      "md5" : "1763ff541acfef96f32453c8ce04a1d0",
-      "name" : "demo-sonar-1.0-SNAPSHOT.jar",
-      "path" : "com/example/demo-sonar/1.0-SNAPSHOT/demo-sonar-1.0-SNAPSHOT.jar"
+      "sha1" : "1a51c72c014efd5e1427cbad6a76e235baf06331",
+      "sha256" : "8b239bc7f469ba3eb0d99173058bddf1aa8e0feb2427d4f6110c722b1cb34030",
+      "md5" : "85ab0471e27d21792f48d6694da37be8",
+      "name" : "demo-sonar-1.0.jar",
+      "path" : "com/example/demo-sonar/1.0/demo-sonar-1.0.jar"
     }, {
       "type" : "pom",
-      "sha1" : "926b09d3bcfe26a74742ed5f0d85250ec549824b",
-      "sha256" : "c21e8d0fca09dfff778d211afa73396efcdf826649fcd4dd3cdc5e4efcc825a6",
-      "md5" : "000087bbfa888fc0b228d10baa192093",
-      "name" : "demo-sonar-1.0-SNAPSHOT.pom",
-      "path" : "com/example/demo-sonar/1.0-SNAPSHOT/demo-sonar-1.0-SNAPSHOT.pom"
+      "sha1" : "3204d026c57e26810b19007ec7d116f7ec6eccb5",
+      "sha256" : "e62ce242273ab586b7edb5f8be75c8d9135845e4708289445b69134cc8af8996",
+      "md5" : "87a39c6f3be29b1b89f503b952a9462c",
+      "name" : "demo-sonar-1.0.pom",
+      "path" : "com/example/demo-sonar/1.0/demo-sonar-1.0.pom"
     } ],
     "dependencies" : [ {
       "type" : "jar",
@@ -44,7 +44,7 @@
       "md5" : "6393363b47ddcbba82321110c3e07519",
       "id" : "org.hamcrest:hamcrest-core:1.3",
       "scopes" : [ "test" ],
-      "requestedBy" : [ [ "junit:junit:4.13.1", "com.example:demo-sonar:1.0-SNAPSHOT" ] ]
+      "requestedBy" : [ [ "junit:junit:4.13.1", "com.example:demo-sonar:1.0" ] ]
     }, {
       "type" : "jar",
       "sha1" : "cdd00374f1fee76b11e2a9d127405aa3f6be5b6a",
@@ -52,7 +52,7 @@
       "md5" : "83d91f209ddcb104776fa41c448c7ee2",
       "id" : "junit:junit:4.13.1",
       "scopes" : [ "test" ],
-      "requestedBy" : [ [ "com.example:demo-sonar:1.0-SNAPSHOT" ] ]
+      "requestedBy" : [ [ "com.example:demo-sonar:1.0" ] ]
     } ]
   } ]
 }
